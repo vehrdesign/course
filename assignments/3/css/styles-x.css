@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #8bbff3;
+}
+
+#bs-example-navbar-collapse-1
+{
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100%; */
+}
+
+div.row > div{
+    padding: 35px;
+}
+
+.content{
+    padding: 15px;
+    background-color: #8bbff3;
+    
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+button{
+    border: 0;
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 2px;
+}
